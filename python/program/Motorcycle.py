@@ -3,7 +3,7 @@
 #untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan, Aamiin
 from Vehicle import Vehicle
 
-#class car ini menampung atribut yang dimiliki motor pada umumnya dan inherit pada class vehicle ya karena
+#class Motorcycle ini menampung atribut yang dimiliki motor pada umumnya dan inherit pada class vehicle ya karena
 #motor itu merupakan sebuah kendaraan (vehicle) dan semua atribut vehicle pasti dimiliki oleh si motor ini
 class Motorcycle(Vehicle):
     __jenis_motor = ''

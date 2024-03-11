@@ -1,6 +1,8 @@
 #Saya Muhammad Muhammad Fadlul Hafiizh [2209889] mengerjakan soal latprak_4 dalam mata kuliah DPBO.
 #untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan, Aamiin
 from Vehicle import Vehicle
+#class car ini menampung atribut yang dimiliki mobil pada umumnya dan inherit pada class vehicle ya karena
+#mobil itu merupakan sebuah kendaraan (vehicle) dan semua atribut vehicle pasti dimiliki oleh si mobil ini
 class Car(Vehicle):
     __jumlah_kursi = 0
     __jumlah_pintu = 0
